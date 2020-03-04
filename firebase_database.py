@@ -4,10 +4,10 @@ from pyrebase import initialize_app
 class Firebase:
     # firebase connection
    config = {
-        "apiKey": "AIzaSyBhyJ6gALd9V1c_eQipCfsYyUB2mSz0slQ",
-        "authDomain": "mysite-b3d04.firebaseapp.com",
-        "databaseURL": "https://mysite-b3d04.firebaseio.com",
-        "storageBucket": "mysite-b3d04.appspot.com",
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "storageBucket": ""
     }
 
    firebase = initialize_app(config)
