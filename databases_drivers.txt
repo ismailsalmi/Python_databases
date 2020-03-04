@@ -6,3 +6,6 @@ $ pip3 install pymongo
 ==============================================
 Mysql driver
 $ pip install pymysql
+==============================================
+Firebase driver
+pip install pyrebase
