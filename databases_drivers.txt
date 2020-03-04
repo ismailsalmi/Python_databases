@@ -4,4 +4,5 @@ $ pip3 install psycopg2
 Mongodb driver
 $ pip3 install pymongo
 ==============================================
-and contune
+Mysql driver
+$ pip install pymysql
