@@ -5,7 +5,10 @@ Mongodb driver
 $ pip3 install pymongo
 ==============================================
 Mysql driver
-$ pip install pymysql
+$ pip3 install pymysql
 ==============================================
 Firebase driver
-pip install pyrebase
+$ pip3 install pyrebase
+==============================================
+Redis driver
+$ pip3 install redis
