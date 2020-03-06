@@ -58,8 +58,6 @@ def read_rows():
         return reatrive_error
     finally:
         return cursor.fetchall()
-        # close the connection
-        conn.close()
 
 # Call methouds
 # Creat table
@@ -78,5 +76,8 @@ print(delete)'''
 reatrive = read_rows()
 for contact in reatrive:
     print(contact)
+
+# close the connection
+conn.close()
 
 
